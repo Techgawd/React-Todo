@@ -2,8 +2,8 @@ import React from "react";
 
 const Task = props => {
     return (
-        <div className={`task${props.item.completed ? " completed" : ""}`}
-        onClick={e => props.toggleItem(props.item.id)}
+        <div className={`task${props.task.completed ? " completed" : ""}`}
+        onClick={e => props.toggleItem(props.task.id)}
       >
         {props.item.name}
 
