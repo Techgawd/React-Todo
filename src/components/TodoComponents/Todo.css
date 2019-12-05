@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300&display=swap');
+
+.main {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    background: linear-gradient(to top, white 0%, rgb(255, 0, 191) 100%);
+    padding: 32px;
+}
+
+form {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background: white;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  input, textarea {
+    width: 200px;
+    padding: 15px 22px;
+    background: #FFA0E5;
+    color: white;
+    margin: 10px 5px;
+    box-sizing: border-box;  
+    border: none;
+    border-radius: 4px;
+  }

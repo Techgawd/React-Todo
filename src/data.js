@@ -9,5 +9,4 @@ export const tasks = [
         id: 1528817084358,
         completed: false
       }
-
 ];
